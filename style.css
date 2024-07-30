@@ -32,13 +32,38 @@ img {
   color: #D1D1D1;
 }
 /* component */
+.btn {
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+.btn-light {
+  background: #fff;
+  color: #000
+}
 
 /* page */
+.banner {
+  background-color: #000;
+  color: #fff;
+}
 
+.banner__content {
+  flex: 1;
+}
+
+.banner__title--strong {
+  display: block;
+  text-align: right;
+}
 /* utils */
 .container {
   width: 1296px;
   margin: 0 auto;
+}
+
+.text-primary {
+  color: #00FFA3;
 }
 
 .h1 {
@@ -46,7 +71,7 @@ img {
 }
 
 .h2 {
-  font-size: 40px;
+  font-size: 64px;
 }
 
 .fs-1 {
@@ -65,10 +90,22 @@ img {
   display: flex;
 }
 
+.justify-center	{
+  justify-content: center;
+}
+
 .justify-between	{
   justify-content: space-between;
 }
 
+.justify-end {
+  justify-content: end;
+}
+
 .items-center {
   align-items: center;
+}
+
+.mr-6 {
+  margin-right: 24px;
 }
