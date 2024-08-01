@@ -56,6 +56,12 @@ img {
   display: block;
   text-align: right;
 }
+
+.intro {
+  background-image: url('./img/background-img.png');
+  color: #fff;
+}
+
 /* utils */
 .container {
   width: 1296px;
@@ -106,6 +112,22 @@ img {
   align-items: center;
 }
 
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+.mb-9 {
+  margin-bottom: 36px;
+}
+
+.mr-4 {
+  margin-right: 16px;
+}
+
 .mr-6 {
   margin-right: 24px;
+}
+
+.py-40 {
+  padding: 160px 0;
 }
