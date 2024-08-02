@@ -62,6 +62,19 @@ img {
   color: #fff;
 }
 
+.about-list {
+  width: 636px;
+}
+
+.about-list__item {
+  width: 306px;
+  border: 1px solid #E3E3E3;
+}
+
+.about-content {
+  width: 526px;
+}
+
 /* utils */
 .container {
   width: 1296px;
@@ -96,6 +109,10 @@ img {
   display: flex;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .justify-center	{
   justify-content: center;
 }
@@ -112,6 +129,10 @@ img {
   align-items: center;
 }
 
+.mb-6 {
+  margin-bottom: 24px;
+}
+
 .mb-8 {
   margin-bottom: 32px;
 }
@@ -126,6 +147,10 @@ img {
 
 .mr-6 {
   margin-right: 24px;
+}
+
+.p-4 {
+  padding: 16px;
 }
 
 .py-40 {
