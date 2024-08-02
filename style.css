@@ -75,6 +75,19 @@ img {
   width: 526px;
 }
 
+.contact-me {
+  background: linear-gradient(
+    rgba(5, 0, 20, 1) 0%, 
+    rgba(1, 2, 30, 0.89) 100%
+  );
+  color: #fff;
+}
+
+.contact-me__img {
+  width: 100px;
+  height: 100px;
+}
+
 /* utils */
 .container {
   width: 1296px;
@@ -141,8 +154,16 @@ img {
   margin-bottom: 36px;
 }
 
+.mr-3 {
+  margin-right: 12px;
+}
+
 .mr-4 {
   margin-right: 16px;
+}
+
+.mr-5{
+  margin-right: 20px;
 }
 
 .mr-6 {
@@ -151,6 +172,10 @@ img {
 
 .p-4 {
   padding: 16px;
+}
+
+.py-24 {
+  padding: 96px 0;
 }
 
 .py-40 {
