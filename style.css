@@ -31,6 +31,11 @@ img {
   background-color: #000;
   color: #D1D1D1;
 }
+
+.footer {
+  background: #000;
+  color: #fff;
+}
 /* component */
 .btn {
   padding: 12px 24px;
@@ -92,10 +97,6 @@ img {
 .contact-me__img {
   width: 100px;
   height: 100px;
-}
-
-.project {
-
 }
 
 .project__title {
@@ -199,6 +200,10 @@ img {
 
 .p-4 {
   padding: 16px;
+}
+
+.py-10 {
+  padding: 40px 0;
 }
 
 .py-24 {
