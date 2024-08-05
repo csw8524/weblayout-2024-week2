@@ -42,6 +42,11 @@ img {
   color: #000
 }
 
+.btn-dark {
+  background: #000;
+  color: #fff
+}
+
 /* page */
 .banner {
   background-color: #000;
@@ -89,6 +94,15 @@ img {
   height: 100px;
 }
 
+.project {
+
+}
+
+.project__title {
+  width: 746px;
+  margin-left: auto;
+}
+
 /* utils */
 .container {
   width: 1296px;
@@ -123,6 +137,10 @@ img {
   display: flex;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -139,12 +157,20 @@ img {
   justify-content: end;
 }
 
+.items-start {
+  align-items: start;
+}
+
 .items-center {
   align-items: center;
 }
 
 .mb-6 {
   margin-bottom: 24px;
+}
+
+.mb-7 {
+  margin-bottom: 28px;
 }
 
 .mb-8 {
